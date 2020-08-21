@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first web lab - CV</title>
@@ -10,15 +11,12 @@
     <nav>
         <a href="#whoIam">¿Quién soy?</a>  |
         <a href="#myCV">Mi CV </a>  |
-        <a href="#hoobies">Mis hoobies </a>  |
+        <a href="#hoobies">Mis hoobies </a> 
     </nav>
-
-    <br>
-    <hr width="80%">
 
     <header id="whoIam">
         <h1>Edgar Rubén Salazar Lugo</h1>
-        <img src="./CHITO.png" alt="my-profile-photo" width="200px">
+        <img src="./CHITO.png" alt="my-profile-photo">
         
         <address>
             <a href="mailto:chito99salu@outlook.com">chito99salu@outlook.com</a> <br>
@@ -28,19 +26,19 @@
     </header>
 
     <br>
-    <hr width="80%">
+    <hr width="80%" class="clear">
     <br>
 
     <main id="myCV">
         <section id="education">
             <h3>Educación</h3>
             <div>
-                <h5>Preparatoria bicultural (agosoto 2014 - mayo 2017</h5>
+                <h5 class="subtitle">Preparatoria bicultural (agosoto 2014 - mayo 2017</h5>
                 <p>Estudié la preparatorio en el Tecnológico de Monterrey Campus Ciudad de México en la que tomé una modalidad básica con prepración en inglés e introducción a un tercer idioma (alemán)</p>
             </div>
 
             <div>
-                <h5>Ingeniero en Tecnologías Computacionales (agosto 2017 - diciembre 2021)</h5>
+                <h5 class="subtitle">Ingeniero en Tecnologías Computacionales (agosto 2017 - diciembre 2021)</h5>
                 <p>Empecé la carrera en el Tecnológico de Monterrey Campues Ciudad de México por los primeros dos años de la carrera. Posteriormente estuve un semestre en Campus Santa Fe y
                     actualmente estoy cursando mi segundo semestre en Campus Monterrey. 
                 </p>
@@ -53,7 +51,7 @@
         <section id="experiencie">
             <h3>Experiencia</h3>
             <div>
-                <p>Konfío (Junio 2019 - Presente)</p>
+                <p class="subtitle">Konfío (Junio 2019 - Presente)</p>
                 <ul>
                     <li>
                         Software Engenieer Intern: Data Mining
@@ -73,7 +71,7 @@
             </div>
 
             <div>
-                <p>Desarrollo web (Junio 2018 - Mayo 2019</p>
+                <p class="subtitle">Desarrollo web (Junio 2018 - Mayo 2019</p>
                 <ul>
                     <li>
                         Servicio social
@@ -102,28 +100,37 @@
         <section id="abilities">
             <h3>Mis habilidades</h3>
 
-            <h5>Lenguajes de programación</h5>
-            <ul>
-                <li>Java</li>
-                <li>JavaScript</li>
-                <li>Python</li>
-                <li>C++</li>
-                <li>SQL</li>
-            </ul>
+            <aside>
+                <div>
+                    <h5>Lenguajes de programación</h5>
+                    <ul>
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>C++</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h5>Herramientas</h5>
+                    <ul>
+                        <li>Eclipse</li>
+                        <li>SequelPro</li>
+                        <li>VSCODE</li>
+                    </ul>
+                </div>
 
-            <h5>Herramientas</h5>
-            <ul>
-                <li>Eclipse</li>
-                <li>SequelPro</li>
-                <li>VSCODE</li>
-            </ul>
+                <div>
+                    <h5>Tecnologías</h5>
+                    <ul>
+                        <li>AWS</li>
+                        <li>React</li>
+                    </ul>
+                </div>
 
-            <h5>Tecnologías</h5>
-            <ul>
-                <li>AWS</li>
-                <li>React</li>
-            </ul>
-
+                
+            </aside>
 
         </section>
     </main>
