@@ -1,3 +1,7 @@
+# My info
+
+Edgar Rubén Salazar Lugo A01338798
+
 # Mi CV - Lab 01
 
 En este repositorio podrán enver mi currículum profesional con información importante sobre mi experiencia profesional y mi 'path' de carrera. 
